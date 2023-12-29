@@ -1,19 +1,11 @@
-import shutil
-import configparser
-import uuid
-import logging
-import glob
+import json
 import os
 import sys
-import pickle
 import traceback
-import json
 
 import questionary
 import typer
-
 from rich.console import Console
-from prettytable import PrettyTable
 
 console = Console()
 
