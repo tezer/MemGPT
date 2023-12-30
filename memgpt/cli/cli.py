@@ -451,7 +451,7 @@ def run(
 
         # Supress llama-index noise
         with suppress_stdout():
-            # TODO: allow configrable state manager (only local is supported right now)
+            # TODO: allow configurable state manager (only local is supported right now)
             persistence_manager = LocalStateManager(agent_config)  # TODO: insert dataset/pre-fill
 
         # create agent
